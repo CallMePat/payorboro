@@ -181,6 +181,7 @@ body {
   display: flex;
   margin-top: 10rem;
   gap: 10rem;
+  padding-right: 3rem;
 }
 
 .service_title h6 {
@@ -219,6 +220,15 @@ body {
   font-weight: 400;
   line-height: 22.75px;
   color: var(--secondaryBlack);
+}
+
+/* System section */
+.system_section {
+  display: flex;
+  margin-top: 10rem;
+  gap: 10rem;
+  padding-left: 5rem;
+
 }
 
 
@@ -406,6 +416,16 @@ body {
     line-height: 20.8px;
  }
   
+ .system_section {
+  display: flex;
+  margin-top: 10rem;
+  gap: 10rem;
+  padding-left: 1rem;
+
+}
+
+
+
 }
 
 

@@ -175,6 +175,66 @@ body {
   border-radius: 6px;
 }
 
+/* Service Section */
+
+.service_section {
+  display: flex;
+  margin-top: 10rem;
+  gap: 10rem;
+}
+
+.service_title h6 {
+  font-size: 13px;
+  color: var(--orange);
+}
+
+.service_title h1 {
+  font-size: 49.78px;
+  margin: -6px 0;
+  color: var(--secondaryBlack);
+}
+
+.paragraph1 {
+  font-size: 14px;
+  color: var(--secondaryBlack);
+  margin-bottom: 2rem;
+  padding-right: 5rem;
+}
+
+.service_body {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 5rem;
+}
+
+.service_body_list h3 {
+  font-size: 17.78px;
+  line-height: 28.44px;
+  font-weight: 700;
+  color: var(--secondaryBlack);
+}
+
+.service_body_list p {
+  font-size: 14.22px;
+  font-weight: 400;
+  line-height: 22.75px;
+  color: var(--secondaryBlack);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 768px) {
   .navbar-menu {
     display: none;
@@ -187,7 +247,6 @@ body {
   .navbar-white {
     background-color: white;
   }
-  
 
   .container {
     max-width: 100%;
@@ -287,7 +346,76 @@ body {
     padding-right: 3rem;
     padding-left: 3rem;
   }
+
+  .service_section {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .service_section img {
+    width: 349.56px;
+    height: 594px;
+  }
+
+  .service_title {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 1rem;
+  }
+
+  .paragraph1 {
+    font-size: 14px;
+    color: var(--secondaryBlack);
+    margin-bottom: 2rem;
+    padding-right: 0;
+  }
+  
+
+
+  .service_body {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    padding: 0 1rem;
+
+  }
+
+  .service_body_list {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .service_body_list img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .service_body_list h3 {
+    font-size: 16px;
+    line-height: 25.6px;
+    text-align: center;
+  }
+  
+
+  .service_body_list p {
+    font-size: 14px;
+    line-height: 20.8px;
+ }
+  
 }
+
+
+
+
+
+
+
+
+
 
 /* Account Section Starts */
 

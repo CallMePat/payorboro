@@ -237,6 +237,14 @@ body {
   height: 947.95px;
 }
 
+.mobilecirlce {
+  display: none;
+}
+
+.transaction2 {
+  display: none;
+}
+
 /* Service Section */
 
 .service_section {

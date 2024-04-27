@@ -181,7 +181,11 @@ body {
   display: flex;
   margin-top: 10rem;
   gap: 10rem;
-  padding-right: 3rem;
+  padding-right: 1rem;
+}
+
+.service_title {
+  padding-right: 2rem;
 }
 
 .service_title h6 {
@@ -206,6 +210,7 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   margin-top: 5rem;
+  gap: 2rem;
 }
 
 .service_body_list h3 {
@@ -223,13 +228,191 @@ body {
 }
 
 /* System section */
+
 .system_section {
   display: flex;
+  justify-content: space-between;
   margin-top: 10rem;
   gap: 10rem;
-  padding-left: 5rem;
+  padding-left: 2rem;
+}
+
+.system_title {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  padding-right: 1.5rem;
+}
+
+.system_title h6 {
+  font-size: 13px;
+  color: var(--orange);
+}
+
+.system_title h1 {
+  font-size: 49.78px;
+  margin: -6px 0;
+  color: var(--secondaryBlack);
+}
+
+.system_body {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 5rem;
+  gap: 2rem;
+}
+
+.system_body_list img {
+  width: 40px;
+  height: 40px;
+}
+
+
+.system_body_list p {
+  font-size: 14.22px;
+  font-weight: 400;
+  line-height: 22.75px;
+  color: var(--secondaryBlack);
+}
+
+.download_section {
+  background-color: var(--blue);
+  margin: 0 5rem;
+  margin-top: 10rem;
+  padding: 4rem 4rem;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30.79px;
 
 }
+
+.download {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.download_body {
+  padding-right: 15rem;
+}
+
+.download:last-child {
+  margin-bottom: -4.4rem;
+}
+
+.download h1 {
+  color: var(--white);
+  font-size: 49.07px;
+  line-height: 62.76px;
+}
+
+.download p {
+  color: var(--white);
+  font-size: 15.39px;
+  padding-right: 10rem;
+  line-height: 27.9px;
+  margin-top: -1rem;
+}
+
+.download_button {
+  display: flex;
+  gap: 3rem;
+}
+
+.btn3 {
+  background-color: var(--white);
+  display: flex;
+  padding: 0.7rem 2rem;
+  align-items: center;
+  color: var(--blue);
+  border: none;
+  gap: 1rem;
+  border-radius: 7.7px;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr); 
+  gap: 1rem; 
+  justify-content: space-between;
+  margin: 4rem 4rem;
+  font-size: 12.44px;
+}
+
+.footer1 p {
+  font-size: 12.44px;
+  width: 152px;
+}
+
+.footer_socials {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+
+.footer2 li {
+  color: var(--black);
+  text-decoration: none;
+  list-style-type: none;
+  margin-top: 1rem;
+  font-weight: 500;
+}
+
+.footer2 li:first-child {
+  color: var(--blue);
+  margin-top: 0;
+  font-weight: 400;
+}
+
+.footer3{
+  color: var(--blue);
+  font-weight: 400;
+}
+
+
+.btn4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 .5rem;
+  width: 156.22px;
+  margin-top: 1rem;
+  gap: 1.5rem;
+  background-color: var(--black);
+  border: 0;
+  border-radius: 8.89px;
+}
+
+.btn4_feature1{
+ font-size: 9.78px;
+ color: var(--white);
+}
+
+.btn4_feature2 {
+  font-size: 12.44px;
+  margin-top: -4px;
+  color: var(--white);
+
+}
+
+.copyright {
+  display: flex;
+  flex-direction: column;
+  font-size: 12.44px;
+  color: #002657;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer_mobile {
+  display: none;
+}
+
+
+
+
 
 
 
@@ -360,6 +543,7 @@ body {
   .service_section {
     display: flex;
     flex-direction: column-reverse;
+
   }
 
   .service_section img {
@@ -381,16 +565,14 @@ body {
     margin-bottom: 2rem;
     padding-right: 0;
   }
-  
-
 
   .service_body {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     justify-content: center;
     padding: 0 1rem;
-
   }
+
 
   .service_body_list {
     display: block;
@@ -398,7 +580,7 @@ body {
     align-items: center;
     text-align: center;
   }
-  
+
   .service_body_list img {
     width: 50px;
     height: 50px;
@@ -409,94 +591,99 @@ body {
     line-height: 25.6px;
     text-align: center;
   }
-  
 
   .service_body_list p {
     font-size: 14px;
     line-height: 20.8px;
- }
+  }
+
+  .system_section {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .system_section img {
+    width: 399.56px;
+    height: 574px;
+  }
+
   
- .system_section {
-  display: flex;
-  margin-top: 10rem;
-  gap: 10rem;
-  padding-left: 1rem;
+  .system_title {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
 
+  .system_body {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    padding: 0 1rem;
+  }
+
+  .system_body_list img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .system_body_list h3 {
+    font-size: 16px;
+    line-height: 25.6px;
+    text-align: center;
+  }
+
+
+  .system_body_list p {
+    font-size: 14px;
+    line-height: 20.8px;
+  } 
+
+  .download_section{
+    display: none;
+  }
+
+  .footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    /* margin: 4rem 4rem; */
+    font-size: 10.44px;
+    justify-content: center;
+    padding:  0 4rem;
+  
+
+  }
+  
+  .footer1 {
+    display: none;
 }
 
-.system_section img {
-  width: 349.56px;
-  height: 594px;
+  .footer2 {
+    padding: 0 1rem;
+  }
+
+
+    .spread {
+      width: 142px;
+    }
+
+    .footer_mobile {
+      font-size: 12.44px;
+      margin: 1rem;
+    
+    }
+
+    .copyright {
+      justify-content: flex-start;
+      align-items: flex-start;
+      padding-left: 1rem;
+    }
+
+    .copyright_span {
+      font-weight: 600;
+    }
+    .copyright2 {
+      display: none;
+    }
 }
 
-
-
-
-.service_body {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  justify-content: center;
-  padding: 0 1rem;
-
-}
-
-.service_body_list {
-  display: block;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.service_body_list img {
-  width: 50px;
-  height: 50px;
-}
-
-.service_body_list h3 {
-  font-size: 16px;
-  line-height: 25.6px;
-  text-align: center;
-}
-
-
-.service_body_list p {
-  font-size: 14px;
-  line-height: 20.8px;
-}
-
-}
-
-
-
-
-
-
-
-
-
-
-/* Account Section Starts */
-
-/* .circle {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.account_wrapper_first {
-  margin-top: 10rem;
-}
-
-.orangeCirle {
-  display: flex;
-  float: inline-start;
-  margin-left: rem;
-}
- */
-
-/* Account Section Ends */
-
-/* styles for  screens */
-
-/* hide header for small screens */

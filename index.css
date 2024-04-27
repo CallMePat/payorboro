@@ -424,7 +424,45 @@ body {
 
 }
 
+.system_section img {
+  width: 349.56px;
+  height: 594px;
+}
 
+
+
+
+.service_body {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-content: center;
+  padding: 0 1rem;
+
+}
+
+.service_body_list {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.service_body_list img {
+  width: 50px;
+  height: 50px;
+}
+
+.service_body_list h3 {
+  font-size: 16px;
+  line-height: 25.6px;
+  text-align: center;
+}
+
+
+.service_body_list p {
+  font-size: 14px;
+  line-height: 20.8px;
+}
 
 }
 
